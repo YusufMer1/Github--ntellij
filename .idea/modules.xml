@@ -4,8 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/GithubAndIntellij.iml" filepath="$PROJECT_DIR$/GithubAndIntellij.iml" />
       <module fileurl="file://$PROJECT_DIR$/My Projects/OOP/OOP1.iml" filepath="$PROJECT_DIR$/My Projects/OOP/OOP1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/My Projects/QUEUE/QUEUE.iml" filepath="$PROJECT_DIR$/My Projects/QUEUE/QUEUE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/My Projects/Data Structuer and Algorithm/QUEUE/QUEUE.iml" filepath="$PROJECT_DIR$/My Projects/Data Structuer and Algorithm/QUEUE/QUEUE.iml" />
       <module fileurl="file://$PROJECT_DIR$/My Projects/Data Structuer and Algorithm/QUEue/QUEue.iml" filepath="$PROJECT_DIR$/My Projects/Data Structuer and Algorithm/QUEue/QUEue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/My Projects/Data Structuer and Algorithm/Recursive/Recursive.iml" filepath="$PROJECT_DIR$/My Projects/Data Structuer and Algorithm/Recursive/Recursive.iml" />
       <module fileurl="file://$PROJECT_DIR$/My Projects/Data Structuer and Algorithm/Stacks/Stacks.iml" filepath="$PROJECT_DIR$/My Projects/Data Structuer and Algorithm/Stacks/Stacks.iml" />
       <module fileurl="file://$PROJECT_DIR$/My Projects/project.iml" filepath="$PROJECT_DIR$/My Projects/project.iml" />
     </modules>
