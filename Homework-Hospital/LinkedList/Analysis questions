@@ -1,0 +1,26 @@
+1.Question: Explain the Big O time complexity for addPatient, removePatient and findPatient
+
+Answer:
+1-addPatient method: this method's purpose is adding new patient on the end of the list. there is not necessary scan the list from
+beginning to end, because of there is tail value that keep end of the list
+*if the list empty, head and tail assing new element
+*else only tail.next is updating and tail reference is bought forward
+In both cases, a fixed amount of transactions is made, so method's time complexity is O(1).
+
+2-removePatient method: this method checks each patient on the list in order to determine the location of the patient to be deleted.
+the list is goes on until find id that want.
+on the worst case;
+*the wanted patient can be on the end o fthe list
+*or he/she can't be on the list
+then method has to wander all of the patients so time complexity is O(n).
+
+3-findPatient method: this method same with removePatient methd so time complexity is O(n).
+
+2.Question: Compare the performance of Lİnked List vs ArrayList for these operations.
+
+Answer: My LinkedLİst that I wrote is more efficient than arraylist. The Lİnked list approach is faster than arrayList,
+especially in terms of insertion and deletion operatians at the beginning or end of the list.
+for example, in adding to begin of the linkedlist, we create a node and connect it to the first node and this spends just 1 operation.
+but on the arraylist, we create an element and add it to first index and another elements shift forward one index. this spends mmany operations.
+
+
