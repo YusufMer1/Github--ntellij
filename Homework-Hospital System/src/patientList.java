@@ -1,8 +1,8 @@
-public class PatientList {
+public class patientList {
     int size = 0;
-    Patient head = null;
-    Patient tail = null;
-    void addpatient(Patient p){
+    patient head = null;
+    patient tail = null;
+    void addpatient(patient p){
         if(size == 0){
             head = p;
             tail = p;
@@ -15,8 +15,8 @@ public class PatientList {
         }
     }
     void removepatient(int id){
-        Patient temp = head;
-        Patient temp2 = head;
+        patient temp = head;
+        patient temp2 = head;
         while(temp != null){
             if(temp.id == id){
                 temp2.next = temp.next;
@@ -29,7 +29,7 @@ public class PatientList {
         System.out.println("No patient find");
     }
     String findpatient(int id){
-        Patient temp = head;
+        patient temp = head;
         while(temp!=null){
             if(temp.id==id){
                 System.out.println("Patient id " + temp.id + " was found");
@@ -43,7 +43,7 @@ public class PatientList {
     void printlist(){
         System.out.println("Patients");
         System.out.println("________");
-        Patient temp = head;
+        patient temp = head;
         System.out.printf("%-10s %-10s %-10s %-10s\n", "name","id","age","severity");
         System.out.println("_".repeat(40));
         while(temp != null){

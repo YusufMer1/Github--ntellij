@@ -1,3 +1,5 @@
+                                            ----TASK1----
+
 1.Question: Explain the Big O time complexity for addPatient, removePatient and findPatient
 
 Answer:
@@ -22,5 +24,23 @@ Answer: My LinkedLİst that I wrote is more efficient than arraylist. The Lİnke
 especially in terms of insertion and deletion operatians at the beginning or end of the list.
 for example, in adding to begin of the linkedlist, we create a node and connect it to the first node and this spends just 1 operation.
 but on the arraylist, we create an element and add it to first index and another elements shift forward one index. this spends mmany operations.
+
+
+                                        ----TASK2----
+
+1.Question: Why is a Queue suitable for managing treatment request?
+
+Answer: Queue is more suitable than other data structures. Because Queue is behavior FİFO. if someone enters the queue, he/she enters
+end of the queue. if it's someone turn, the one at the top of the queue should go.
+
+2.Question:What issues would occur if a stack were used instead? Compare their time complexities.
+
+Answer: if we use stack, person who comes first would be last one to leave, then may cause chaos.
+In our Linked List-based implementation, the basic processing times of both structures are the same, the difference is only in the logic:
+Queue: enqueue methods runs in O(1) time because of the front pointer. dequeue methods runs in O(1) time because of the rear pointer
+Stack: push and pop methos also runs in O(1) time.
+result: there is no difference between them as performance. but the use of a queue is required as a logical flow.
+
+
 
 
