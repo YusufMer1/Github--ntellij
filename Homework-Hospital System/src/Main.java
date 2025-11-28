@@ -36,6 +36,16 @@ public class Main {
         System.out.println("size: " + tq.size());
 
 
+        System.out.println("-----------DischargeStack--------------");
+        DischargeStack ds = new DischargeStack();
+        ds.push(new DischargeRecord(201,System.currentTimeMillis()));
+        ds.push(new DischargeRecord(202,System.currentTimeMillis()));
+        ds.push(new DischargeRecord(203,System.currentTimeMillis()));
+        ds.push(new DischargeRecord(204,System.currentTimeMillis()));
+        ds.push(new DischargeRecord(205,System.currentTimeMillis()));
+        ds.pop();
+        ds.pop();
+        ds.printStack();
 
     }
 }

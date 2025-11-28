@@ -33,7 +33,7 @@ but on the arraylist, we create an element and add it to first index and another
 Answer: Queue is more suitable than other data structures. Because Queue is behavior FİFO. if someone enters the queue, he/she enters
 end of the queue. if it's someone turn, the one at the top of the queue should go.
 
-2.Question:What issues would occur if a stack were used instead? Compare their time complexities.
+2.Question: What issues would occur if a stack were used instead? Compare their time complexities.
 
 Answer: if we use stack, person who comes first would be last one to leave, then may cause chaos.
 In our Linked List-based implementation, the basic processing times of both structures are the same, the difference is only in the logic:
@@ -41,6 +41,27 @@ Queue: enqueue methods runs in O(1) time because of the front pointer. dequeue m
 Stack: push and pop methos also runs in O(1) time.
 result: there is no difference between them as performance. but the use of a queue is required as a logical flow.
 
+
+                                        ----TASK3----
+
+1.Question: Why is a Stack suitable for managing discharge records?
+
+Answer: The most fundamental feature of the stack structure is its Last In First Out (LIFO) principle. The most frequently
+viewed data in discharge records is typically the most recently discharged patient. When a manager or physician looks at the system,
+they want to see the patient discharged recently, not the patient discharged three years ago. By its very nature,
+the stack keeps the most current data at the top.
+
+2.Question: What would happen if you replaced it with a Queue? Discuss Big O comparisons.
+
+Answer:if we use queue instead of stack, then the structure behaviour First In Fırst Out (FIFO). so when I perform pop (or dequeue)
+operation, the system always bring to last discharge patient. not new patient discharge
+
+The difference time complexity between stack and queue;
+Stack:
+pop and push operations are always perform top of the list, so time complexity is O(1) no matter how much the stack is time complexity doesn't change
+Queue:
+dequeue is O(1). However, enqueue  can be O(n) if the Linked List implementation does not maintain a 'tail' pointer,as it requires traversing
+the entire list. Ideally, with a tail pointer, it is also O(1),but the Stack is generally simpler to implement efficiently.
 
 
 
