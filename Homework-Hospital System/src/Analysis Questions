@@ -64,4 +64,36 @@ dequeue is O(1). However, enqueue  can be O(n) if the Linked List implementation
 the entire list. Ideally, with a tail pointer, it is also O(1),but the Stack is generally simpler to implement efficiently.
 
 
+                                        ----TASK4----
+
+1.Question: Explain the Big O complexity of your priority and sorting mechanism
+
+Answer:
+        1.priority mechanism: I implemented the priority system using two linkedlist queue one for emergency one for normal.
+            Enqueue operation: Adding a patient is done by updating the tail pointer of the respective queue. This operation does not require traversing the list, resulting in O(1) complexity.
+            Dequeue operation: Retrieving the next patient involves checking the emergency queue's head first. Removing from the head is also an O(1) operation.
+                               This design is highly efficient compared to searching for the highest priority element in a single list, which would be O(N).
+
+        2.Sorting Mechanism: For sorting patients by severity, I used the Bubble Sort algorithm on the Linked List.
+                             * it has a nested loop structure.
+                             * if there are N patients, then does approximately N*N proccess.
+                             * so time complexity is O(N^2).
+
+2.Question: How would using a heap-based priority queue improve performance?
+
+Answer:
+        Currently my implementation handles binary priority (Emergency vs Normal) efficiently with O(1).
+        However if the system required the many severity levels, my current approach would struggle.
+        Using a Binary Heap (Max-Heap) would significantly improve performance in a multi-level priority scenario:
+
+                Dynamic Sorting: In a standard list, finding the patient with the highest severity requires iterating through the entire list, taking O(N) time.
+
+                Heap Efficiency: A Max-Heap ensures the highest priority element is always at the root. Both adding a patient (insert) and removing the highest
+                                 priority patient (extract-max) take O(log N) time.
+
+        Conclusion: While my Two-Queue system is faster O(1) for simple "Yes/No" priority, a Heap is superior O(log N) vs O(N) for complex systems
+                    where patients must be processed strictly according to a wide range of severity scores.
+
+
+
 
