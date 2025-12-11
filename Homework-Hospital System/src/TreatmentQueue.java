@@ -17,10 +17,12 @@ public class TreatmentQueue {
             this.data=data;
         }
     }
+    //Adds a treatment request to appropriate queue
+    //Time complexity is O(1)
     void enqueue(TreatmentRequest request){
         Node newnode = new Node(request);
-        if(newnode.data.isPriority == true){
-            if(emergencyfront == null){
+        if(newnode.data.isPriority == true){  //first of all, we check out whether patient is priority or not
+            if(emergencyfront == null){         //if the patient is priority, we add the patient end of the emergency queue
                 emergencyfront = emergencyrear = newnode;
             }
             else{
@@ -28,7 +30,7 @@ public class TreatmentQueue {
                 emergencyrear = newnode;
             }
         }
-        else{
+        else{                           //if the patient is not priority, then we add the ptient end of the normal queue
             if(normalfront== null){
                 normalfront = normalrear = newnode;
             }
@@ -40,21 +42,24 @@ public class TreatmentQueue {
         }
         size++;
     }
+    //Removes and reutrns the next request to be processed
+    //always check the emergency queue first
+    //Tİme complexity is O(1)
     TreatmentRequest dequeue(){
-        if(size == 0){
+        if(size == 0){  //if the queue is empty, dont need to make procces
             System.out.println("the queue is already empty");
             return null;
         }
         else{
             TreatmentRequest dataToReturn;
-            if(emergencyfront!=null) {
+            if(emergencyfront!=null) {          //if emergency queue is not empty, procces is made from emergency queue first
                 dataToReturn = emergencyfront.data;
                 emergencyfront = emergencyfront.next;
                 if (emergencyfront == null) {
                     emergencyrear = null;
                 }
             }
-            else{
+            else{                           //if emerceny queue is empty, proccess is made from normal queue
                 dataToReturn = normalfront.data;
                 normalfront = normalfront.next;
                 if(normalfront==null){
@@ -70,6 +75,7 @@ public class TreatmentQueue {
     int size(){
         return size;
     }
+    //Displays the queue state, showing emergency first
     void printQueue(){
         System.out.println("Emergency Queue");
         Node temp = emergencyfront;

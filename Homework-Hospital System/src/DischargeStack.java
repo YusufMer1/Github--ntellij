@@ -1,5 +1,5 @@
 public class DischargeStack {
-    Node top;
+    Node top; //Points to the top of the stack
 
     private class Node{
         Node next;
@@ -9,9 +9,11 @@ public class DischargeStack {
             this.data = data;
         }
     }
+    //Pushes a new record onto the top of the stack
+    //time complexity is O(1)
     public void push(DischargeRecord record){
         Node newnode = new Node(record);
-        if(top == null){
+        if(top == null){  //adding element is always on the top of the stack
             top = newnode;
         }
         else{
@@ -19,11 +21,13 @@ public class DischargeStack {
             top = newnode;
         }
     }
+    //Removes and returns the top record from the stack
+    //time complexity is O(1)
     public DischargeRecord pop(){
         if(top==null){
             System.out.println("Stack is already empty");
             return null;
-        }
+        }           //removing element is always on the top of the stach same as push
         else{
             Node temp = top;
             System.out.println(temp.data.patientId + " removed");
@@ -32,6 +36,7 @@ public class DischargeStack {
         }
         
     }
+    //Returns the top record
     public int peek(){
         if(top == null){
             System.out.println("stack is empty");
@@ -41,6 +46,7 @@ public class DischargeStack {
             return top.data.patientId;
         }
     }
+    //Prints the stack from Top to Bottom
     public void printStack(){
         Node temp = top;
         System.out.print("top --> ");

@@ -7,12 +7,12 @@ public class patientList {
     //Time complexity is O(1)
     void addpatient(patient p){
         Node newnode = new Node(p);
-        if(head ==null){  //we check out whether list is empty or not if empty newnode will be head and tail
+        if(head ==null){  //we check out whether list is empty or not if it is empty, newnode will be head and tail
             head = newnode;
             tail = newnode;
         }
         else{
-            tail.next =newnode; //we Link the new node to the end
+            tail.next =newnode; //we link the new node to the end
             tail = newnode;   //update the tail value
         }
         size++;
