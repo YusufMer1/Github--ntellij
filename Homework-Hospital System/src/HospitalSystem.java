@@ -62,7 +62,7 @@ public class HospitalSystem {
     //Prints the current state of all system components
     public void printSystemState(){
         System.out.println("===========================================");
-        System.out.println("         HOSPİTAL MANAGEMENT SYSTEM          ");
+        System.out.println("          HOSPİTAL MANAGEMENT SYSTEM          ");
         System.out.println("===========================================");
 
         System.out.println();
