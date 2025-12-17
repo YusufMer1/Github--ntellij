@@ -8,6 +8,7 @@ public class HospitalSystem {
     private DischargeStack dischargestack;
     private HashMap<Integer,patient> patientMap;
 
+
     HospitalSystem(){
         //we create objects from another class to access them
         this.patientlist = new patientList();
@@ -62,7 +63,7 @@ public class HospitalSystem {
     //Prints the current state of all system components
     public void printSystemState(){
         System.out.println("===========================================");
-        System.out.println("         HOSPİTAL MANAGEMENT SYSTEM         ");
+        System.out.println("         HOSPİTAL MANAGEMENT SYSTEM        ");
         System.out.println("===========================================");
 
         System.out.println();
