@@ -18,7 +18,7 @@ public class DischargeStack {
         }
         else{
             newnode.next = top;
-            top = newnode;
+            top =newnode;
         }
     }
     //Removes and returns the top record from the stack
