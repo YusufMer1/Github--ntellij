@@ -1,7 +1,9 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("------Patient List-------");
+
         patientList pl = new patientList();
+
         patient p1 = new patient(1234,"Mehmet",20,6);
         patient p2 = new patient(1235,"Ali",19,7);
         patient p3 = new patient(1236,"Ayşe",22,8);
@@ -57,7 +59,7 @@ public class Main {
         hs.addPatient(13,"mehmet",7,20);
         hs.addPatient(14,"furkan",9,22);
         hs.addPatient(15,"yusuf",8,22);
-        hs.addPatient(16,"esra",4,22);
+        hs.addPatient(16,"esra",10,22);
         hs.addPatient(17,"fırat",5,21);
         hs.addPatient(18,"eren",3,22);
         hs.addPatient(19,"ılgın",7,22);

@@ -12,7 +12,7 @@ In both cases, a fixed amount of transactions is made, so method's time complexi
 2-removePatient method: this method checks each patient on the list in order to determine the location of the patient to be deleted.
 the list is goes on until find id that want.
 on the worst case;
-*the wanted patient can be on the end o fthe list
+*the wanted patient can be on the end of the list
 *or he/she can't be on the list
 then method has to wander all of the patients so time complexity is O(n).
 
