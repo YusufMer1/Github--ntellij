@@ -2,30 +2,30 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("------Patient List-------");
 
-        patientList pl = new patientList();
+        patientList pl = new patientList(); //on this part I craete a object from patientList class
 
-        patient p1 = new patient(1234,"Mehmet",20,6);
+        patient p1 = new patient(1234,"Mehmet",20,6);   //on this part I am creating patient
         patient p2 = new patient(1235,"Ali",19,7);
         patient p3 = new patient(1236,"Ayşe",22,8);
         patient p4 = new patient(1237,"Burak",25,4);
         patient p5 = new patient(1238,"Yusuf",21,3);
 
-        pl.addpatient(p1);
+        pl.addpatient(p1); //I am adding patients that I created to the Linked list
         pl.addpatient(p2);
         pl.addpatient(p3);
         pl.addpatient(p4);
         pl.addpatient(p5);
         pl.sortBySeverity();
 
-        pl.removepatient(1236);
+        pl.removepatient(1236); //remove a patient
 
-        pl.findpatient(1238);
+        pl.findpatient(1238);   //try to find a specific patient
 
-        pl.printlist();
+        pl.printlist(); //print the patient list
 
         System.out.println("--------Treatmen Queue---------");
-        TreatmentQueue tq = new TreatmentQueue();
-        tq.enqueue(new TreatmentRequest(101,System.currentTimeMillis(),false));
+        TreatmentQueue tq = new TreatmentQueue();   //on this part I create a queue from TreatmentQueue class
+        tq.enqueue(new TreatmentRequest(101,System.currentTimeMillis(),false)); //on this part, I am adding patients to the my queue according to the severity level
         tq.enqueue(new TreatmentRequest(102,System.currentTimeMillis(),true));
         tq.enqueue(new TreatmentRequest(103,System.currentTimeMillis(),false));
         tq.enqueue(new TreatmentRequest(104,System.currentTimeMillis(),false));
@@ -33,21 +33,21 @@ public class Main {
         tq.enqueue(new TreatmentRequest(106,System.currentTimeMillis(),false));
         tq.enqueue(new TreatmentRequest(107,System.currentTimeMillis(),true));
         tq.enqueue(new TreatmentRequest(108,System.currentTimeMillis(),true));
-        tq.dequeue();
-        tq.dequeue();
+        tq.dequeue();   //remove patient, if my priority queue is not empty then dequeue procces starts from there
+        tq.dequeue();   //if not dequeue proccess starts from normal queue
         tq.dequeue();
         tq.printQueue();
-        System.out.println("size: " + tq.size());
+        System.out.println("size: " + tq.size());  //print queue(normal queue + priority queue) size
 
 
         System.out.println("-----------DischargeStack--------------");
-        DischargeStack ds = new DischargeStack();
-        ds.push(new DischargeRecord(201,System.currentTimeMillis()));
+        DischargeStack ds = new DischargeStack(); //on this part I create a stack from DischargeStack class.
+        ds.push(new DischargeRecord(201,System.currentTimeMillis())); //on this part I am adding the patients to the Stack
         ds.push(new DischargeRecord(202,System.currentTimeMillis()));
         ds.push(new DischargeRecord(203,System.currentTimeMillis()));
         ds.push(new DischargeRecord(204,System.currentTimeMillis()));
         ds.push(new DischargeRecord(205,System.currentTimeMillis()));
-        ds.pop();
+        ds.pop();  //in here, I am removing patient who enter last from stack
         ds.pop();
         ds.printStack();
 
