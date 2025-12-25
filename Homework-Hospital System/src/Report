@@ -1,0 +1,60 @@
+                       Detail Report
+
+1-System Design:
+
+the objective of this project was to simulte a Hospital Patient Management System by integrating fundamental data structure.
+The system architecture is based on a central HospitalSystem class that manages four different components:
+
+*Linked list: LinkedLİst's purpose is that keep the patients who accept
+
+*Queue: it manages to flow of the patient who wait treatment
+
+*Stack: it hides discharge records and acces the last patient with LIFO principle
+
+*HashMap: By mapping PatientID to Patient Objects, it enables access to patient details at O(1) speed during treatment and discharge
+processes. Thus, there is no need for slow O(N) searches in the linked list.
+
+2-Algorithm:
+
+A(Priority mechanism):
+I applied two queue from TreatmentQueue class instead of one list.
+Class keeps two LinkedList for priority and normal situation.
+
+Performance:
+
+*Enqueue: when a request was add, firstly check priority situation and request is add on end of the list. this procces is O(1).
+
+*Dequeue: System always check out beginning of the priority queue. if there is not empty, take from there. if not take beginning of the normal queue.
+this procces is O(1).
+
+*Result: if I used the just one list, when I searched the most severity, the proccess will be O(N). My approach is faster than it
+
+B(Sort mechanism):
+I used bubblesort for my sort mechanism
+
+*logic mechanism: the algorithm wanders the Linked list and compare the nodes thats stay side by side according to the severity and if the sorting is wrong, swap them.
+
+*performance: on the worst scenario. algorithm is work nested loop and this procces is O(N^2).
+
+3-Performance analyse:
+
+A(Data Structures Analysis):
+
+*LinkedList: Adding a patient is O(1) because I utilized a tail pointer. However, searching and removing require traversing the list, resulting in O(N) complexity.
+
+B(Priority Mechanism):
+
+*My implementation maintains two separate queues for Emergency and Normal patients.
+
+*Both adding (enqueue) and processing (dequeue) requests operate in O(1) time.
+
+*This is structurally superior to a single-list approach, which would require an O(N) linear search to find the highest-priority patient every time.
+
+C(Sorting):
+
+*The sorting algorithm runs in O(N^2) time due to nested loops swapping adjacent nodes.
+
+D(Optimization):
+
+*To mitigate the O(N) lookup cost of the Linked List, I integrated a HashMap. This reduced patient retrieval times for treatment and discharge operations from O(N) to O(1).
+
