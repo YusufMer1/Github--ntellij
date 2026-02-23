@@ -40,24 +40,8 @@ public class IntHashTable {
         int i = 0;
         while(i == index){
             Node newnode = new Node(id,name,grade);
-
         }
     }
-
-
-    public String get(int id) {
-
-
-
-
-
-
-    }
-
-    /*
-     Utility method: print the full content of the hash table.
-     This is useful to show how separate chaining works.
-     */
     public void printTable() {
         System.out.println("=== Hash Table Nodes ===");
         for (int i = 0; i < table.length; i++) {
@@ -78,20 +62,5 @@ public class IntHashTable {
         }
         System.out.println("==========================");
     }
-
-    /*
-     Exercise :
-     Compute the average grade of all students stored in the hash table.
-    */
-    public double getAverageGrade() {
-
-
-
-
-
-
-
-    }
-
 }
 

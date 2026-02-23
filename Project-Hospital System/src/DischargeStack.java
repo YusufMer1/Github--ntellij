@@ -34,7 +34,7 @@ public class DischargeStack {
             top = top.next;
             return temp.data;
         }
-        
+
     }
     //Returns the top record
     public int peek(){
@@ -57,5 +57,4 @@ public class DischargeStack {
         System.out.print("end");
         System.out.println();
     }
-
 }

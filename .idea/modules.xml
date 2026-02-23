@@ -2,35 +2,35 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/My Projects/OOP/BST/BST.iml" filepath="$PROJECT_DIR$/My Projects/OOP/BST/BST.iml" />
-      <module fileurl="file://$PROJECT_DIR$/My Projects/Data Structure AND Algorithm/BinaryTree/BinaryTree.iml" filepath="$PROJECT_DIR$/My Projects/Data Structure AND Algorithm/BinaryTree/BinaryTree.iml" />
-      <module fileurl="file://$PROJECT_DIR$/My Projects/OOP/Calculator/Calculator.iml" filepath="$PROJECT_DIR$/My Projects/OOP/Calculator/Calculator.iml" />
-      <module fileurl="file://$PROJECT_DIR$/My Projects/OOP/Cat class/Cat class.iml" filepath="$PROJECT_DIR$/My Projects/OOP/Cat class/Cat class.iml" />
-      <module fileurl="file://$PROJECT_DIR$/My Projects/OOP/Cylinder Class/Cylinder Class.iml" filepath="$PROJECT_DIR$/My Projects/OOP/Cylinder Class/Cylinder Class.iml" />
-      <module fileurl="file://$PROJECT_DIR$/My Projects/Data Structure AND Algorithm/Data Structure AND Algorithm.iml" filepath="$PROJECT_DIR$/My Projects/Data Structure AND Algorithm/Data Structure AND Algorithm.iml" />
-      <module fileurl="file://$PROJECT_DIR$/My Projects/OOP/Flower/Flower.iml" filepath="$PROJECT_DIR$/My Projects/OOP/Flower/Flower.iml" />
-      <module fileurl="file://$PROJECT_DIR$/My Projects/OOP/Food/Food.iml" filepath="$PROJECT_DIR$/My Projects/OOP/Food/Food.iml" />
-      <module fileurl="file://$PROJECT_DIR$/My Projects/OOP/Fruit/Fruit.iml" filepath="$PROJECT_DIR$/My Projects/OOP/Fruit/Fruit.iml" />
-      <module fileurl="file://$PROJECT_DIR$/My Projects/OOP/Game/Game.iml" filepath="$PROJECT_DIR$/My Projects/OOP/Game/Game.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework/..iml" filepath="$PROJECT_DIR$/Homework/..iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework/OOP/BST/BST.iml" filepath="$PROJECT_DIR$/Homework/OOP/BST/BST.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework/Data Structure AND Algorithm/BinaryTree/BinaryTree.iml" filepath="$PROJECT_DIR$/Homework/Data Structure AND Algorithm/BinaryTree/BinaryTree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework/OOP/Calculator/Calculator.iml" filepath="$PROJECT_DIR$/Homework/OOP/Calculator/Calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework/OOP/Cat class/Cat class.iml" filepath="$PROJECT_DIR$/Homework/OOP/Cat class/Cat class.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework/OOP/Cylinder Class/Cylinder Class.iml" filepath="$PROJECT_DIR$/Homework/OOP/Cylinder Class/Cylinder Class.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework/Data Structure AND Algorithm/Data Structure AND Algorithm.iml" filepath="$PROJECT_DIR$/Homework/Data Structure AND Algorithm/Data Structure AND Algorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework/OOP/Flower/Flower.iml" filepath="$PROJECT_DIR$/Homework/OOP/Flower/Flower.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework/OOP/Food/Food.iml" filepath="$PROJECT_DIR$/Homework/OOP/Food/Food.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework/OOP/Fruit/Fruit.iml" filepath="$PROJECT_DIR$/Homework/OOP/Fruit/Fruit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework/OOP/Game/Game.iml" filepath="$PROJECT_DIR$/Homework/OOP/Game/Game.iml" />
       <module fileurl="file://$PROJECT_DIR$/GithubAndIntellij.iml" filepath="$PROJECT_DIR$/GithubAndIntellij.iml" />
-      <module fileurl="file://$PROJECT_DIR$/My Projects/Data Structure AND Algorithm/HashTable/HashTable.iml" filepath="$PROJECT_DIR$/My Projects/Data Structure AND Algorithm/HashTable/HashTable.iml" />
-      <module fileurl="file://$PROJECT_DIR$/My Projects/OOP/Homework/Homework.iml" filepath="$PROJECT_DIR$/My Projects/OOP/Homework/Homework.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Homework-Hospital System/Homework-Hospital System.iml" filepath="$PROJECT_DIR$/Homework-Hospital System/Homework-Hospital System.iml" />
-      <module fileurl="file://$PROJECT_DIR$/My Projects/OOP/Lab-Example/Lab-Example.iml" filepath="$PROJECT_DIR$/My Projects/OOP/Lab-Example/Lab-Example.iml" />
-      <module fileurl="file://$PROJECT_DIR$/My Projects/OOP/Lab-example2/Lab-example2.iml" filepath="$PROJECT_DIR$/My Projects/OOP/Lab-example2/Lab-example2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/My Projects/OOP/Lab-example3/Lab-example3.iml" filepath="$PROJECT_DIR$/My Projects/OOP/Lab-example3/Lab-example3.iml" />
-      <module fileurl="file://$PROJECT_DIR$/My Projects/OOP/OOP1.iml" filepath="$PROJECT_DIR$/My Projects/OOP/OOP1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/My Projects/OOP/Person Class/Person Class.iml" filepath="$PROJECT_DIR$/My Projects/OOP/Person Class/Person Class.iml" />
-      <module fileurl="file://$PROJECT_DIR$/My Projects/OOP/Product Class/Product Class.iml" filepath="$PROJECT_DIR$/My Projects/OOP/Product Class/Product Class.iml" />
-      <module fileurl="file://$PROJECT_DIR$/My Projects/Data Structure AND Algorithm/QUEUE/QUEUE.iml" filepath="$PROJECT_DIR$/My Projects/Data Structure AND Algorithm/QUEUE/QUEUE.iml" />
-      <module fileurl="file://$PROJECT_DIR$/My Projects/Data Structure AND Algorithm/QUEUE/QUEue.iml" filepath="$PROJECT_DIR$/My Projects/Data Structure AND Algorithm/QUEUE/QUEue.iml" />
-      <module fileurl="file://$PROJECT_DIR$/My Projects/Data Structure AND Algorithm/Recursive/Recursive.iml" filepath="$PROJECT_DIR$/My Projects/Data Structure AND Algorithm/Recursive/Recursive.iml" />
-      <module fileurl="file://$PROJECT_DIR$/My Projects/Data Structure AND Algorithm/Sorting Algorith/Sorting Algorith.iml" filepath="$PROJECT_DIR$/My Projects/Data Structure AND Algorithm/Sorting Algorith/Sorting Algorith.iml" />
-      <module fileurl="file://$PROJECT_DIR$/My Projects/Data Structuer and Algorithm/Stacks/Stacks.iml" filepath="$PROJECT_DIR$/My Projects/Data Structuer and Algorithm/Stacks/Stacks.iml" />
-      <module fileurl="file://$PROJECT_DIR$/My Projects/Tree/TREE.iml" filepath="$PROJECT_DIR$/My Projects/Tree/TREE.iml" />
-      <module fileurl="file://$PROJECT_DIR$/My Projects/Tree/Tree.iml" filepath="$PROJECT_DIR$/My Projects/Tree/Tree.iml" />
-      <module fileurl="file://$PROJECT_DIR$/My Projects/OOP/playlist/playlist.iml" filepath="$PROJECT_DIR$/My Projects/OOP/playlist/playlist.iml" />
-      <module fileurl="file://$PROJECT_DIR$/My Projects/project.iml" filepath="$PROJECT_DIR$/My Projects/project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework/Data Structure AND Algorithm/HashTable/HashTable.iml" filepath="$PROJECT_DIR$/Homework/Data Structure AND Algorithm/HashTable/HashTable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework/OOP/Homework/Homework.iml" filepath="$PROJECT_DIR$/Homework/OOP/Homework/Homework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework/OOP/Lab-Example/Lab-Example.iml" filepath="$PROJECT_DIR$/Homework/OOP/Lab-Example/Lab-Example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework/OOP/Lab-example2/Lab-example2.iml" filepath="$PROJECT_DIR$/Homework/OOP/Lab-example2/Lab-example2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework/OOP/Lab-example3/Lab-example3.iml" filepath="$PROJECT_DIR$/Homework/OOP/Lab-example3/Lab-example3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework/OOP/OOP1.iml" filepath="$PROJECT_DIR$/Homework/OOP/OOP1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework/OOP/Person Class/Person Class.iml" filepath="$PROJECT_DIR$/Homework/OOP/Person Class/Person Class.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework/OOP/Product Class/Product Class.iml" filepath="$PROJECT_DIR$/Homework/OOP/Product Class/Product Class.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Project-Hospital System/Project.iml" filepath="$PROJECT_DIR$/Project-Hospital System/Project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework/Data Structure AND Algorithm/QUEUE/QUEUE.iml" filepath="$PROJECT_DIR$/Homework/Data Structure AND Algorithm/QUEUE/QUEUE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework/Data Structure AND Algorithm/QUEUE/QUEue.iml" filepath="$PROJECT_DIR$/Homework/Data Structure AND Algorithm/QUEUE/QUEue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework/Data Structure AND Algorithm/Recursive/Recursive.iml" filepath="$PROJECT_DIR$/Homework/Data Structure AND Algorithm/Recursive/Recursive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework/Data Structure AND Algorithm/Sorting Algorith/Sorting Algorith.iml" filepath="$PROJECT_DIR$/Homework/Data Structure AND Algorithm/Sorting Algorith/Sorting Algorith.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework/Data Structuer and Algorithm/Stacks/Stacks.iml" filepath="$PROJECT_DIR$/Homework/Data Structuer and Algorithm/Stacks/Stacks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework/Tree/TREE.iml" filepath="$PROJECT_DIR$/Homework/Tree/TREE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework/Tree/Tree.iml" filepath="$PROJECT_DIR$/Homework/Tree/Tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework/OOP/playlist/playlist.iml" filepath="$PROJECT_DIR$/Homework/OOP/playlist/playlist.iml" />
     </modules>
   </component>
 </project>
